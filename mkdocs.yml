@@ -1,4 +1,4 @@
-site_name: 皮塞冬丶的小站
+site_name: Pise1don's Homepage
 theme:
   name: material
   language: zh
@@ -7,6 +7,7 @@ theme:
     - navigation.tabs.sticky
     - navigation.instant
     - navigation.tracking
+    - navigation.top
 nav:
   - 高等数学助教专题:
     - 作业信息: 高等数学助教专题/作业信息.md
@@ -17,11 +18,15 @@ plugins:
   - glightbox
 
 markdown_extensions:
-  - pymdownx.arithmatex:
-      generic: true
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.tabbed:
+      alternate_style: true 
 
 extra_javascript:
   - javascripts/mathjax.js
