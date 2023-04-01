@@ -5,11 +5,11 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<link href="../%E4%BD%9C%E4%B8%9A%E4%BF%A1%E6%81%AF/" rel="prev"/>
-<link href="../%E7%AD%94%E7%96%91%E7%B2%BE%E9%80%89/" rel="next"/>
+<meta content="['Pise1don']" name="author"/>
+<link href="../%E4%BD%9C%E4%B8%9A%E5%8F%8D%E9%A6%88/" rel="prev"/>
 <link href="../../assets/images/favicon.png" rel="icon"/>
 <meta content="mkdocs-1.4.2, mkdocs-material-9.1.5" name="generator"/>
-<title>高等数学作业反馈 - Pise1don's Homepage</title>
+<title>答疑记录 - Pise1don's Homepage</title>
 <link href="../../assets/stylesheets/main.7a7fce14.min.css" rel="stylesheet"/>
 <link href="../../assets/stylesheets/palette.a0c5b2b5.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -57,7 +57,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              高等数学作业反馈
+              答疑记录
             
           </span>
 </div>
@@ -107,16 +107,33 @@
         作业信息
       </a>
 </li>
-<li class="md-nav__item md-nav__item--active">
-<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
-<a class="md-nav__link md-nav__link--active" href="./">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../%E4%BD%9C%E4%B8%9A%E5%8F%8D%E9%A6%88/">
         作业反馈
       </a>
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../%E7%AD%94%E7%96%91%E7%B2%BE%E9%80%89/">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          答疑精选
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
         答疑精选
       </a>
+<nav aria-label="目录" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_2">
+    极值
+  </a>
+</li>
+</ul>
+</nav>
 </li>
 </ul>
 </nav>
@@ -130,40 +147,56 @@
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="目录" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_2">
+    极值
+  </a>
+</li>
+</ul>
 </nav>
 </div>
 </div>
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1 id="_1">高等数学作业反馈</h1>
-<p>这里是各周作业反馈的下载区.</p>
-<table>
-<thead>
-<tr>
-<th align="left">作业周数</th>
-<th align="left">作业主要内容</th>
-<th align="center">作业反馈下载</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Week 1-2</td>
-<td align="left">多元函数极限、连续、偏导数、微分、链式求导法则</td>
-<td align="center"><a href="../%E5%8F%8D%E9%A6%88PDF/Week1-2.pdf">下载</a></td>
-</tr>
-<tr>
-<td align="left">Week 3</td>
-<td align="left">隐函数存在定理、数量场的梯度与方向导数</td>
-<td align="center"><a href="../%E5%8F%8D%E9%A6%88PDF/Week3.pdf">下载</a></td>
-</tr>
-<tr>
-<td align="left">Week 4</td>
-<td align="left">Taylor公式、无条件极值</td>
-<td align="center"><a href="../%E5%8F%8D%E9%A6%88PDF/Week4.pdf">下载</a></td>
-</tr>
-</tbody>
-</table>
+<h1 id="_1">答疑精选</h1>
+<p>这里记录一些答疑过程中遇到的有意思的题目.</p>
+<h2 id="_2">极值</h2>
+<div class="admonition question">
+<p class="admonition-title">例1</p>
+<p>证明: 当 <span class="arithmatex">\(0&lt;x&lt;1,y&gt;0\)</span> 时, 成立
+$$
+yx^y(1-x)&lt;\mathrm{e}^{-1}.
+$$</p>
+</div>
+<details class="success">
+<summary>提示与参考解答</summary>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio"><input id="__tabbed_1_2" name="__tabbed_1" type="radio"><div class="tabbed-labels"><label for="__tabbed_1_1">提示</label><label for="__tabbed_1_2">参考解答</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>利用
+<span class="arithmatex">\(\sup\limits_{x,y}f(x,y)=\sup\limits_y\sup\limits_xf(x,y).\)</span></p>
+</div>
+<div class="tabbed-block">
+<p>设<span class="arithmatex">\(f(x,y)=yx^y(1-x)\)</span>.</p>
+<p>对固定的 <span class="arithmatex">\(y&gt;0\)</span>, 考虑 <span class="arithmatex">\(x\)</span> 取何值时 <span class="arithmatex">\(f(x,y)\)</span> 达到最大值. 注意 <span class="arithmatex">\(\dfrac{\partial f}{\partial x}=yx^{y-1}\big[y(1-x)-x\big]\)</span>, 因此
+$$
+\max_xf(x,y)=f\Big(\dfrac y{1+y},y\Big)=\Big(\dfrac y{1+y}\Big)^{1+y}.
+$$</p>
+<p>设 <span class="arithmatex">\(\varphi(y)=\Big(\dfrac y{1+y}\Big)^{1+y}\)</span>, 不难证明 <span class="arithmatex">\(\varphi(y)\)</span> 在 <span class="arithmatex">\(y\in(0,+\infty)\)</span> 单调递增. 因此
+$$
+\varphi(y)&lt;\lim\limits_{y\to+\infty}\varphi(y)=\mathrm{e}^{-1}.
+$$
+再进一步, <span class="arithmatex">\(f(x,y)\leqslant\varphi(y)&lt;\mathrm{e}^{-1}\)</span>.  <span class="arithmatex">\(\square\)</span></p>
+</div>
+</div>
+</input></input></div>
+</details>
 </article>
 </div>
 </div>
