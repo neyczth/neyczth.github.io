@@ -1,17 +1,14 @@
-# Welcome to MkDocs
+---
+title: 首页
+authors: 
+    - Pise1don
+date: 2023-4-1
+---
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+# 关于
 
-## Commands
+这里是我的个人小站. 会更新一些关于数学、程序设计的内容.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+如果你想联系我, 可发邮件至 [neyczth@126.com](mailto:neyczth@126.com).
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+如果你想要分享、引用、改编本站的内容, 请遵循 [CC BY-NC-SA 4.0 协议](https://creativecommons.org/licenses/by-nc-sa/4.0/).

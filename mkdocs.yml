@@ -1,3 +1,24 @@
-site_name: My Docs
+site_name: 皮塞冬丶的小站
 theme:
   name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.instant
+    - navigation.tracking
+nav:
+  - 首页: index.md
+  - 高等数学助教专题:
+    - 作业信息: 高等数学助教专题/作业信息.md
+    - 作业反馈: 高等数学助教专题/作业反馈.md
+    # - 助教笔记: 高等数学助教专题/助教笔记.md
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
