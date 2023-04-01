@@ -8,15 +8,20 @@ theme:
     - navigation.instant
     - navigation.tracking
 nav:
-  - 首页: index.md
   - 高等数学助教专题:
     - 作业信息: 高等数学助教专题/作业信息.md
     - 作业反馈: 高等数学助教专题/作业反馈.md
     # - 助教笔记: 高等数学助教专题/助教笔记.md
 
+plugins:
+  - glightbox
+
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 extra_javascript:
   - javascripts/mathjax.js
