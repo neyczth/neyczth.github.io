@@ -9,11 +9,10 @@ redirect_from:
 
 # Education
 
-* Master of Science (Academic)
-Department of Computational Mathematics, School of Mathematical Sciences, Fudan University
-Research Focus: Numerical Optimization
-Advisor: Professor Wei‑Hong Yang
-
-* Bachelor of Science
-School of Mathematical Sciences, Fudan University
-Major: Information and Computing Science
+* **Master of Science (Academic)**, Sep 2022 - Jun 2025
+  * Department of Computational Mathematics, School of Mathematical Sciences, Fudan University
+  * **Research Focus:** Numerical Optimization
+  * **Advisor:** Professor Wei‑Hong Yang
+* Bachelor of Science, Sep 2018 - Jun 2022
+  * School of Mathematical Sciences, Fudan University
+  * **Major:** Information and Computing Science
