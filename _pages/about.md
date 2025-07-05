@@ -18,7 +18,7 @@ redirect_from:
 
 # Work Experience
 
-* LLM Algorithm Engineer \| **Kuaishou**, Beijing \| May 2025 - Now
+* LLM Algorithm Engineer \| **Kuaishou**, Beijing \| May 2025 - Present (Intern May 2025 - Jul 2025 → Full-Time)
 * Recommendation Algorithm Engineer (Intern) \| **Kuaishou**, Beijing \| Jul 2024 - Apr 2025
 * Recommendation Algorithm Engineer (Intern) \| **Bilibili**, Shanghai \| Jan 2024 - May 2024
 
