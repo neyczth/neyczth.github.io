@@ -24,7 +24,7 @@ redirect_from:
 
 # Competitions
 
-## Mathematics
+### Mathematics
 
 * **China Mathematical Olympiad (CMO)** — Third Prize, 2016
 
@@ -32,7 +32,7 @@ redirect_from:
 
 * National High School Mathematics League — First Prize (in Liaoning Province), 2016
 
-## Informatics
+### Informatics
 
 * National Olypiad in Informatics in Provinces (NOIp), First Prize (in Liaoning Province), 2017
 
