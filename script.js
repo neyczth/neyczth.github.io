@@ -77,8 +77,8 @@ class LanguageSwitcher {
 
     updateDocumentTitle() {
         const titles = {
-            en: 'LLM Algorithm Engineer - Personal Homepage',
-            zh: '大语言模型算法工程师 - 个人主页'
+            en: 'Tinghai Zhang - Personal Homepage',
+            zh: '张听海 - 个人主页'
         };
         document.title = titles[this.currentLang];
     }
