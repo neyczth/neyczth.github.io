@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tinghai Zhang - Personal Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header with Language Switch -->
+        <header class="header">
+            <div class="language-switch">
+                <button id="lang-en" class="lang-btn active">EN</button>
+                <button id="lang-zh" class="lang-btn">中文</button>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-content">
+                    <div class="profile-photo">
+                        <img src="profile-photo.jpg" alt="Tinghai Zhang" class="avatar" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgdmlld0JveD0iMCAwIDEyMCAxMjAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIiBmaWxsPSIjRjNGNEY2Ii8+CjxjaXJjbGUgY3g9IjYwIiBjeT0iNDUiIHI9IjE1IiBmaWxsPSIjOUNBM0FGIi8+CjxwYXRoIGQ9Ik0zMCA5MEMzMCA3NS42NDA2IDQxLjY0MDYgNjQgNTYgNjRINjRDNzguMzU5NCA2NCA5MCA3NS42NDA2IDkwIDkwVjEwMEgzMFY5MFoiIGZpbGw9IiM5Q0EzQUYiLz4KPC9zdmc+';">                    </div>
+                    <h1 class="name" data-en="Tinghai Zhang" data-zh="张听海"></h1>
+                    <h2 class="title" data-en="A LLM Algorithm Engineer" data-zh="大语言模型算法工程师"></h2>
+                    <!-- <p class="description" data-en="Passionate about advancing AI through innovative language model research and development" data-zh="专注于通过创新的语言模型研究和开发推进人工智能发展">Passionate about advancing AI through innovative language model research and development</p> -->
+                    <div class="social-links">
+                        <a href="mailto:neyczth@126.com" class="social-link" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://github.com/neyczth" class="social-link" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <!-- <a href="https://linkedin.com/in/tinghai-zhang" class="social-link" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://twitter.com/neyczth" class="social-link" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a> -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <section class="section">
+                <h2 class="section-title" data-en="Education" data-zh="教育经历"></h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2022 - 2025</div>
+                        <div class="timeline-content">
+                            <h3 data-en="M.S. in Computational Mathematics" data-zh="计算数学&emsp;硕士"></h3>
+                            <p class="institution" data-en="School of Mathematical Sciences, Fudan University" data-zh="复旦大学数学科学学院"></p>
+                            <p class="description" data-en="Research Area: Numerical Optimization&#10;Mainly focus on stochastic optimization algorithms over Riemannian manifolds" data-zh="研究方向: 数值优化&#10;主要聚焦于黎曼流形上随机优化算法的研究"></p>
+                            <p class="advisor"><!-- 使用两个独立元素分别存储中英文内容 -->                                
+                                <span class="lang-en">Advisor: <a href="https://scholar.google.com/citations?user=AdW0YzcAAAAJ" target="_blank">Prof. Wei-Hong Yang</a></span>
+                                <span class="lang-zh" style="display:none">导师: <a href="https://scholar.google.com/citations?user=AdW0YzcAAAAJ" target="_blank">杨卫红 教授</a></span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2018 - 2022</div>
+                        <div class="timeline-content">
+                            <h3 data-en="B.S. in Information and Computational Science" data-zh="信息与计算科学&emsp;学士"></h3>
+                            <p class="institution" data-en="School of Mathematical Sciences, Fudan University" data-zh="复旦大学数学科学学院"></p>
+                            <!-- <p class="description" data-en="Focus on Deep Learning and Neural Networks" data-zh="专注于深度学习和神经网络"></p> -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Competitions Section -->
+            <section class="section">
+                <h2 class="section-title" data-en="Competitions" data-zh="竞赛经历"></h2>
+                <div class="competitions">
+                    <div class="competition-category math">
+                        <div class="category-header">
+                            <h3 data-en="Mathematics Competitions" data-zh="数学竞赛"></h3>
+                            <div class="category-icon">📐</div>
+                        </div>
+                        <div class="competition-list">
+                            <div class="competition-item">
+                                <div class="competition-header">
+                                    <div class="competition-name">
+                                        <span data-en="China Mathematical Olympiad (CMO)" data-zh="中国数学奥林匹克 (CMO)"></span>
+                                        <div class="competition-badges">
+                                            <span class="competition-grade national" data-en="National Level" data-zh="国家级"></span>
+                                            <span class="competition-level bronze" data-en="🥉 Third Prize" data-zh="🥉 三等奖"></span>
+                                        </div>
+                                    </div>
+                                    <div class="competition-details">
+                                        <span data-en="2016" data-zh="2016"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="competition-item">
+                                <div class="competition-header">
+                                    <div class="competition-name">
+                                        <span data-en="National High School Mathematics League" data-zh="全国高中数学联赛"></span>
+                                        <div class="competition-badges">
+                                            <span class="competition-grade provincial" data-en="Provincial Level" data-zh="省级"></span>
+                                            <span class="competition-level gold" data-en="🥇 First Prize" data-zh="🥇 一等奖"></span>
+                                        </div>
+                                    </div>
+                                    <div class="competition-details">
+                                        <span data-en="Liaoning Province, 2017" data-zh="辽宁赛区, 2017"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="competition-item">
+                                <div class="competition-header">
+                                    <div class="competition-name">
+                                        <span data-en="National High School Mathematics League" data-zh="全国高中数学联赛"></span>
+                                        <div class="competition-badges">
+                                            <span class="competition-grade provincial" data-en="Provincial Level" data-zh="省级"></span>
+                                            <span class="competition-level gold" data-en="🥇 First Prize" data-zh="🥇 一等奖"></span>
+                                        </div>
+                                    </div>
+                                    <div class="competition-details">
+                                        <span data-en="Liaoning Province, 2016" data-zh="辽宁赛区, 2016"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="competition-category informatics">
+                        <div class="category-header">
+                            <h3 data-en="Informatics Competitions" data-zh="信息学竞赛"></h3>
+                            <div class="category-icon">💻</div>
+                        </div>
+                        <div class="competition-list">
+                            <div class="competition-item">
+                                <div class="competition-header">
+                                    <div class="competition-name">
+                                        <span data-en="National Olypiad in Informatics in Provinces (NOIp)" data-zh="全国青少年信息学奥林匹克联赛 (NOIp)"></span>
+                                        <div class="competition-badges">
+                                            <span class="competition-grade provincial" data-en="Provincial Level" data-zh="省级"></span>
+                                            <span class="competition-level gold" data-en="🥇 First Prize" data-zh="🥇 一等奖"></span>
+                                        </div>
+                                    </div>
+                                    <div class="competition-details">
+                                        <span data-en="Liaoning Province, 2017" data-zh="辽宁赛区, 2017"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="competition-item">
+                                <div class="competition-header">
+                                    <div class="competition-name">
+                                        <span data-en="National Olypiad in Informatics in Provinces (NOIp)" data-zh="全国青少年信息学奥林匹克联赛 (NOIp)"></span>
+                                        <div class="competition-badges">
+                                            <span class="competition-grade provincial" data-en="Provincial Level" data-zh="省级"></span>
+                                            <span class="competition-level gold" data-en="🥇 First Prize" data-zh="🥇 一等奖"></span>
+                                        </div>
+                                    </div>
+                                    <div class="competition-details">
+                                        <span data-en="Liaoning Province, 2016" data-zh="辽宁赛区, 2016"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Work Experience Section -->
+            <section class="section">
+                <h2 class="section-title" data-en="Work Experience" data-zh="工作经历"></h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">May 2025 - Present</div>
+                        <div class="timeline-content">
+                            <h3 data-en="LLM Algorithm Engineer" data-zh="大语言模型算法工程师"></h3>
+                            <p class="institution" data-en="Kuaishou Technology, Beijing" data-zh="北京·快手"></p>
+                            <p class="description" data-en="Optimize and improve post-training techniques for LLMs&#10;Intern May - Jun 2025 -> Full-time" data-zh="对大语言模型后训练技术进行优化和改进&#10;2025年5-6月实习, 后转为正式员工"></p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Jul 2024 - Apr 2025</div>
+                        <div class="timeline-content">
+                            <h3 data-en="Recommendation Algorithm Engineer (Intern)" data-zh="推荐算法实习生"></h3>
+                            <p class="institution" data-en="Kuaishou Technology, Beijing" data-zh="北京·快手"></p>
+                            <p class="description" data-en="Maintained recommendation pipeline for a vertical domain and optimized related recommendation models" data-zh="为一垂类业务维护推荐链路, 优化相关推荐模型"></p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">Jan 2024 - May 2024</div>
+                        <div class="timeline-content">
+                            <h3 data-en="Recommendation Algorithm Engineer (Intern)" data-zh="推荐算法实习生"></h3>
+                            <p class="institution" data-en="Bilibili Technology, Shanghai" data-zh="上海·哔哩哔哩"></p>
+                            <p class="description" data-en="Maintained recommendation pipeline for the main site and optimized related recommendation models" data-zh="为主站维护推荐链路, 优化相关推荐模型"></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Publications Section -->
+            <!-- <section class="section">
+                <h2 class="section-title" data-en="Publications" data-zh="发表文章"></h2>
+                <div class="publications">
+                    <div class="publication-item">
+                        <h3 data-en="Efficient Transformer Architectures for Large-Scale Language Models" data-zh="大规模语言模型的高效Transformer架构"></h3>
+                        <p class="authors" data-en="J. Smith, A. Johnson, M. Chen" data-zh="张三, A. Johnson, M. Chen"></p>
+                        <p class="venue" data-en="NeurIPS 2024" data-zh="NeurIPS 2024"></p>
+                    </div>
+                    <div class="publication-item">
+                        <h3 data-en="Multi-Modal Language Understanding with Vision-Language Transformers" data-zh="基于视觉-语言Transformer的多模态语言理解"></h3>
+                        <p class="authors" data-en="J. Smith, B. Lee, C. Wang" data-zh="张三, B. Lee, C. Wang"></p>
+                        <p class="venue" data-en="ICML 2023" data-zh="ICML 2023"></p>
+                    </div>
+                    <div class="publication-item">
+                        <h3 data-en="Adaptive Model Compression for Efficient Inference in Large Language Models" data-zh="大语言模型高效推理的自适应模型压缩"></h3>
+                        <p class="authors" data-en="J. Smith, D. Kim, E. Zhang" data-zh="张三, D. Kim, E. Zhang"></p>
+                        <p class="venue" data-en="ACL 2023" data-zh="ACL 2023"></p>
+                    </div>
+                </div>
+            </section> -->            
+
+            <!-- Skills Section -->
+            <section class="section">
+                <h2 class="section-title" data-en="Technical Skills" data-zh="技术技能"></h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3 data-en="Programming Languages" data-zh="编程语言"></h3>
+                        <p data-en="Python, C++, MATLAB" data-zh="Python, C++, MATLAB"></p>
+                    </div>
+                    <div class="skill-category">
+                        <h3 data-en="ML/AI Frameworks" data-zh="机器学习/人工智能框架"></h3>
+                        <p data-en="PyTorch, NumPy, Hugging Face" data-zh="PyTorch, NumPy, Hugging Face"></p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section Removed - Now in Hero Section -->
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p data-en="© 2025 Tinghai Zhang. All rights reserved." data-zh="© 2025 张听海. 保留所有权利。"></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
