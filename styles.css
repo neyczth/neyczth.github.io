@@ -159,7 +159,6 @@ body {
 .description {
     font-size: 1rem;
     color: #64748b;
-    max-width: 500px;
     margin: 0 auto;
     line-height: 1.7;
 }
